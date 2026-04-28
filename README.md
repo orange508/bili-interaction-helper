@@ -27,7 +27,7 @@ pip install requests python-dotenv
 ```
 
 
-配置文件
+##配置文件
 
 仓库里有 .env.example，复制一份改个名：
 
@@ -38,10 +38,10 @@ cp .env.example .env
 然后编辑 .env，填上你自己的 Cookie：
 
 ```bash
-nano .env   # 或用 vim、记事本
+nano .env   # 或者用记事本
 ```
 
-Cookie 获取方法
+##Cookie 获取方法
 
 1. 浏览器登录 B站
 2. 按 F12 → Application → Cookies
@@ -53,7 +53,7 @@ Cookie 获取方法
 注意：不要把填好 Cookie 的 .env 文件传到 GitHub 上（已经被 .gitignore 忽略了）。
 
 
-分区 ID
+##分区 ID
 
 改了 TID 就能换分区：
 
@@ -64,7 +64,7 @@ TID 分区
 129 宅舞区
 
 
-运行
+##运行
 
 ```bash
 python main.py
@@ -77,6 +77,7 @@ python main.py
 
 如有侵权或其他问题，请短信联系：
 
-开发者电话：13476825301
-
+开发者电话： ```bash
+           13476825301
+           ```
 
