@@ -50,7 +50,7 @@ nano .env   # 或者用记事本
    · bili_jct
    · buvid3
 
-注意：不要把填好 Cookie 的 .env 文件传到 GitHub 上（已经被 .gitignore 忽略了）。
+## 注意：不要把填好 Cookie 的 .env 文件传到 GitHub 上。
 
 
 ## 分区 ID
